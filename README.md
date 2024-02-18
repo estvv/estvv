@@ -1,7 +1,7 @@
 <h1 align="center">Hi</h1>
 <h3 align="center">first-year student at Epitech</h3>
 
-- 👨‍💻 All of my projects are available at [estvv.github.io/portfolio](estvv.github.io/portfolio)
+- 👨‍💻 All of my projects are available at [estvv.github.io/portfolio](estvv.github.io/portfolio/)
 
 - 📫 How to reach me **estevebascu38@gmail.com**
 
