@@ -30,10 +30,16 @@ jobs:
 
       - name: fix README.md
         run: |
+          mkdir -p ./profile-summary-card-output
+          touch ./profile-summary-card-output/README.md
+
           sed -i 's/main\/profile-summary-card-output/cards/g' ./profile-summary-card-output/README.md
+
           for D in ./profile-summary-card-output/*; do
             if [ -d "${D}" ]; then
-              sed -i 's/main\/profile-summary-card-output/cards/g' ${D}/README.md
+              # Sécurité pour les sous-dossiers
+              touch "${D}/README.md"
+              sed -i 's/main\/profile-summary-card-output/cards/g' "${D}/README.md"
             fi
           done
 
