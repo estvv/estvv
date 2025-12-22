@@ -11,12 +11,6 @@ on:
     - main
 
 jobs:
-  generate_snake:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-
   generate_profile_cards:
     permissions:
       contents: write
