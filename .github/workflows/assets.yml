@@ -27,6 +27,7 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           UTC_OFFSET: 2
           AUTO_PUSH: false
+          include_private: true
 
       - name: fix README.md
         run: |
