@@ -24,7 +24,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
         with:
-          USERNAME: ${{ github.repository_owner }}
+          USERNAME: estvv
           UTC_OFFSET: 2
           AUTO_PUSH: false
           include_private: true
