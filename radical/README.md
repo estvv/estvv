@@ -15,16 +15,6 @@
 ### Each card usage
 ---
 
-![](./0-profile-details.svg)
-
-```
-![](https://raw.githubusercontent.com/estvv/estvv/cards/radical/0-profile-details.svg)
-```
-
-    
-
----
-
 ![](./1-repos-per-language.svg)
 
 ```
@@ -39,16 +29,6 @@
 
 ```
 ![](https://raw.githubusercontent.com/estvv/estvv/cards/radical/2-most-commit-language.svg)
-```
-
-    
-
----
-
-![](./3-stats.svg)
-
-```
-![](https://raw.githubusercontent.com/estvv/estvv/cards/radical/3-stats.svg)
 ```
 
     
