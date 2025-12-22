@@ -1,0 +1,52 @@
+name: Generate profile assets
+
+on:
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+    - main
+
+jobs:
+  generate_profile_cards:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: generate profile cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        with:
+          USERNAME: estvv
+          UTC_OFFSET: 2
+          AUTO_PUSH: false
+
+      - name: fix README.md
+        run: |
+          mkdir -p ./profile-summary-card-output
+          touch ./profile-summary-card-output/README.md
+
+          sed -i 's/main\/profile-summary-card-output/cards/g' ./profile-summary-card-output/README.md
+
+          for D in ./profile-summary-card-output/*; do
+            if [ -d "${D}" ]; then
+              touch "${D}/README.md"
+              sed -i 's/main\/profile-summary-card-output/cards/g' "${D}/README.md"
+            fi
+          done
+
+      - name: push cards to cards branch
+        uses: crazy-max/ghaction-github-pages@v4.1.0
+        with:
+          target_branch: cards
+          build_dir: profile-summary-card-output
+          keep_history: true
+          author: estv <esteve.bascunana@epitech.eu>
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
