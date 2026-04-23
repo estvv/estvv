@@ -5,8 +5,6 @@
   <img src="https://raw.githubusercontent.com/estvv/estvv/cards/discord_old_blurple/2-most-commit-language.svg" height="180" alt="Top Languages"/>
 </div>
 
-###
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/c/c-plain.svg" height="40" alt="c"/>
   <img width="12"/>
