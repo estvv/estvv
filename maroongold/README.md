@@ -52,13 +52,3 @@
 ```
 
     
-
----
-
-![](./4-productive-time.svg)
-
-```
-![](https://raw.githubusercontent.com/estvv/estvv/cards/maroongold/4-productive-time.svg)
-```
-
-    
