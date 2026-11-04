@@ -52,13 +52,3 @@
 ```
 
     
-
----
-
-![](./4-productive-time.svg)
-
-```
-![](https://raw.githubusercontent.com/estvv/estvv/cards/outrun/4-productive-time.svg)
-```
-
-    

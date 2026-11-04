@@ -52,13 +52,3 @@
 ```
 
     
-
----
-
-![](./4-productive-time.svg)
-
-```
-![](https://raw.githubusercontent.com/estvv/estvv/cards/moonlight/4-productive-time.svg)
-```
-
-    

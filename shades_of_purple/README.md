@@ -52,13 +52,3 @@
 ```
 
     
-
----
-
-![](./4-productive-time.svg)
-
-```
-![](https://raw.githubusercontent.com/estvv/estvv/cards/shades_of_purple/4-productive-time.svg)
-```
-
-    
