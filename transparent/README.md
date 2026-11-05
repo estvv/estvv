@@ -52,3 +52,13 @@
 ```
 
     
+
+---
+
+![](./4-productive-time.svg)
+
+```
+![](https://raw.githubusercontent.com/estvv/estvv/cards/transparent/4-productive-time.svg)
+```
+
+    
